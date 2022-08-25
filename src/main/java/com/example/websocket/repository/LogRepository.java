@@ -1,6 +1,6 @@
-package com.example.messagingstompwebsocket.repository;
+package com.example.websocket.repository;
 
-import com.example.messagingstompwebsocket.Log;
+import com.example.websocket.model.Log;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,14 +1,14 @@
-package com.example.messagingstompwebsocket;
+package com.example.websocket.controller;
 
 import java.util.Arrays;
 import java.util.List;
 
-import com.example.messagingstompwebsocket.repository.LogRepository;
+import com.example.websocket.model.Log;
+import com.example.websocket.repository.LogRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class LogController {

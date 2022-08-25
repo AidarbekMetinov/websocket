@@ -1,4 +1,4 @@
-package com.example.messagingstompwebsocket;
+package com.example.websocket.model;
 
 import lombok.*;
 import org.hibernate.Hibernate;
